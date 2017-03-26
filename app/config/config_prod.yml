@@ -21,3 +21,6 @@ monolog:
             level: debug
         console:
             type: console
+
+lexik_jwt_authentication:
+    pass_phrase: "%env(JWT_KEY_PASS_PHRASE)%"
