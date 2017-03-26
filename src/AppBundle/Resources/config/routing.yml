@@ -1,0 +1,12 @@
+app_lists:
+    type: rest
+    resource: "@AppBundle/Controller/ProductsListController.php"
+
+app_products:
+    type: rest
+    parent: app_lists
+    resource: "@AppBundle/Controller/ProductsController.php"
+
+app_register:
+    type: rest
+    resource: "@AppBundle/Controller/SecurityController.php"
