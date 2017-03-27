@@ -50,6 +50,8 @@
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::prepareDeploymentTarget"
         ],
         "post-install-cmd": [
+            "echo $PUBLIC_PEM > /tmp/public.pem",
+            "echo $PRIVATE_PEM > /tmp/private.pem",
             "@symfony-scripts"
         ],
         "post-update-cmd": [
