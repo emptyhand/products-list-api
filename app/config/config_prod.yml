@@ -21,3 +21,8 @@ monolog:
             level: debug
         console:
             type: console
+
+lexik_jwt_authentication:
+    private_key_path: '%env(JWT_PRIVATE_KEY_PATH)%'
+    public_key_path:  '%env(JWT_PUBLIC_KEY_PATH)%'
+    pass_phrase:      '%env(JWT_KEY_PASS_PHRASE)%'
