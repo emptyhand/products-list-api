@@ -8,7 +8,7 @@ app_api:
     resource: '@AppBundle/Resources/config/routing.yml'
 
 api_login_check:
-    path: /api/login_check
+    path: /login_check
 
 NelmioApiDocBundle:
     resource: "@NelmioApiDocBundle/Resources/config/routing.yml"
