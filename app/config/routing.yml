@@ -4,7 +4,7 @@ app:
 
 app_api:
     type: rest
-    prefix: /api
+    prefix: /
     resource: '@AppBundle/Resources/config/routing.yml'
 
 api_login_check:
